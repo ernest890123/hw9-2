@@ -1,7 +1,6 @@
 {
   "name": "hw6",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "install:all": "cd frontend && yarn install && cd ../backend && yarn install",
     "start": "cd frontend && yarn start",
@@ -11,8 +10,6 @@
     "deploy": "cd backend && yarn deploy"
   },
   "license": "MIT",
-  "dependencies": {
-    "dotenv-defaults": "^5.0.2"
-  },
+  "main": "index.js",
   "packageManager": "yarn@1.22.19"
 }
