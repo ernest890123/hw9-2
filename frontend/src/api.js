@@ -2,10 +2,7 @@ import axios from 'axios';
 
 const API_ROOT =
   process.env.NODE_ENV === "production"
-    ? "/api"
-    : "http://localhost:4000/api";
-
+    ? "/"
+    : "http://localhost:4000/";
 const api = axios.create({API_ROOT})
 export default api;
-
-// instance.get('/hi').then((data) => console.log(data));
