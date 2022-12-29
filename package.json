@@ -1,0 +1,16 @@
+{
+  "name": "hw6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install:prod": "cd frontend && yarn install --freeze-lockfile && cd ../backend && yarn install --freeze-lockfile",
+    "build": "cd frontend && yarn build",
+    "deploy": "cd backend && yarn deploy",
+    "start": "cd frontend && yarn start",
+    "server": "cd backend && yarn server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv-defaults": "^5.0.2"
+  }
+}
