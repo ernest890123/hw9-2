@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(cors());
 app.use(express.json());
-app.use('/api', routes);
+app.use('/', routes);
 db.connect();
 
 const port = process.env.PORT || 4000;
